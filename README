@@ -1,0 +1,11 @@
+# Build and Run
+
+1. build
+  mkdir build && cd build
+  cmake .. && make -j4
+2. run
+  ./yolo_demo ../model/yolov5s.mnn ../image/zidane.jpg
+
+# License
+Apache 2.0
+
